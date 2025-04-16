@@ -7,7 +7,8 @@ readonly class ExchangeRatesDTO
     /** @var array<string, float> */
     public array $rates;
 
-    public function __construct(array $rates) {
+    public function __construct(array $rates)
+    {
         $this->rates = $rates;
     }
 

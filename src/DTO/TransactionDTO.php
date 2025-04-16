@@ -2,7 +2,8 @@
 
 namespace App\DTO;
 
-readonly class TransactionDTO {
+readonly class TransactionDTO
+{
     public function __construct(
         public int $bin,
         public float $amount,
